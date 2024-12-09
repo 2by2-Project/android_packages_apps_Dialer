@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2013-2014 The CyanogenMod Project
-     Copyright (C) 2018 The LineageOS Project
+     Copyright (C) 2013 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,11 +15,20 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="call_log_show_all_accounts">Gach cuntas</string>
-    <string name="call_log_all_calls_header">Gach glaonna</string>
-    <string name="call_log_incoming_header">Glaonna isteach amháin</string>
-    <string name="call_log_outgoing_header">Glaonna amach amháin</string>
-    <string name="call_log_missed_header">Glaonna caillte amháin</string>
-    <string name="call_log_voicemail_header">Glaonna le glórphost amháin</string>
-    <string name="call_log_blacklist_header">Glaonna bactha amháin</string>
+    <plurals name="hour">
+        <item quantity="one">1 மணி</item>
+        <item quantity="other">%d மணி</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="one">1 நுணுத்தம்</item>
+        <item quantity="other">%d நுணுத்தம்</item>
+    </plurals>
+    <plurals name="second">
+        <item quantity="one">1 நொடி</item>
+        <item quantity="other">%d நொடி</item>
+    </plurals>
+    <plurals name="call">
+        <item quantity="one">1 அழைப்பு</item>
+        <item quantity="other">%d அழைப்பு</item>
+    </plurals>
 </resources>
